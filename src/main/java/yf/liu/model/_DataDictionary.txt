@@ -1,0 +1,39 @@
+Table: tf_f_productattach
+----------------+------------------------+------+-----+---------+---------
+ Field          | Type                   | Null | Key | Default | Remarks 
+----------------+------------------------+------+-----+---------+---------
+ pkid           | numeric() identity(18) | NO   | PRI |         |         
+ ATTACH_ROOT_ID | nvarchar(45)           | YES  |     |         |         
+ ATTACH_NAME    | nvarchar(300)          | YES  |     |         |         
+ FILE_TYPE      | int(10)                | YES  |     |         |         
+ FILE_PATH      | nvarchar(600)          | YES  |     |         |         
+ ATTACH_DESC    | nvarchar(3000)         | YES  |     |         |         
+ VALIDITY       | nvarchar(3)            | YES  |     |         |         
+ CUST_ID        | nvarchar(45)           | YES  |     |         |         
+ USER_ID        | nvarchar(45)           | YES  |     |         |         
+ RSRV_STR1      | nvarchar(3)            | YES  |     |         |         
+ RSRV_STR2      | nvarchar(3)            | YES  |     |         |         
+ RSRV_STR3      | nvarchar(3)            | YES  |     |         |         
+ RSRV_NUM4      | real(24)               | YES  |     |         |         
+ RSRV_NUM5      | real(24)               | YES  |     |         |         
+ RSRV_STR6      | nvarchar(300)          | YES  |     |         |         
+ RSRV_STR7      | nvarchar(300)          | YES  |     |         |         
+ RSRV_STR8      | nvarchar(300)          | YES  |     |         |         
+ RSRV_STR9      | nvarchar(300)          | YES  |     |         |         
+ RSRV_STR10     | nvarchar(300)          | YES  |     |         |         
+ REMARK         | nvarchar(150)          | YES  |     |         |         
+ IN_DATE        | datetime(23,3)         | YES  |     |         |         
+ attach_id      | int(10)                | NO   |     |         |         
+ orderby        | int(10)                | YES  |     |         |         
+ uuid           | varchar(50)            | YES  |     |         |         
+ Images         | image(2147483647)      | YES  |     |         |         
+ memo           | varchar(100)           | YES  |     |         |         
+ memo1          | varchar(100)           | YES  |     |         |         
+ memo3          | varchar(100)           | YES  |     |         |         
+ memo4          | varchar(100)           | YES  |     |         |         
+ memo5          | varchar(100)           | YES  |     |         |         
+ Imagesid       | int(10)                | YES  |     |         |         
+ flag           | int(10)                | YES  |     | ((0))   |         
+ delflag        | int(10)                | YES  |     |         |         
+----------------+------------------------+------+-----+---------+---------
+
